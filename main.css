@@ -78,7 +78,7 @@ input, select {
   font-weight: bold; 
 }
 input { 
-  width: 15vw;  
+  width: 22vw;  
   height: 45px;
   line-height: 1.5;
   margin-right: 15px;
@@ -88,10 +88,10 @@ select {
   height: 91px;
 }
 #selection__content-type {
-  width: 12vw;
+  width: 8vw;
 }
 #selection__list-size {
-  width: 8vw;
+  width: 11vw;
 }
 #selection__release-year {
   width: 6vw;
@@ -113,7 +113,7 @@ select {
   display: flex;
   box-sizing: border-box;
   margin: 50px;
-  margin-left: -50px;
+  margin-left: 0;
   width: 100%;
   position: absolute;
   justify-content: center;
