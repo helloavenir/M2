@@ -63,7 +63,7 @@
       h1El.textContent = movie.Title
       h1El.classList.add('content-title')
       const imgEl = document.createElement('img')
-      imgEl.src = movie.Poster === 'N/A' ? './icon-movie.png' : movie.Poster
+      imgEl.src = movie.Poster === 'N/A' ? './images/icon-movie.png' : movie.Poster
       el.append(imgEl, h1El)
       moviesEl.append(el)
     }
